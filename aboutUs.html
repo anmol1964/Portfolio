@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(14 3 24);
+            color: white;
+            font-family: "Libre Baskerville", serif;
+        }
+      .container {
+        display: flex;
+        height: 100vh;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 70%;
+        margin: 0px auto;
+      }
+      #logo {
+        height: 50%;
+        margin: 10px;
+        padding: 3px;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: flex-end;
+      }
+      #about {
+        border: 2px solid black;
+        height: 50%;
+        margin: 10px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+      }
+      .container img {
+        width: 30%;
+      }
+      h1 {
+        align-self: flex-start;
+        width: 100%;
+        justify-content: center;
+      }
+      .about {
+        width: 550px;
+      }
+      .about h1{
+        font-size: 70px;
+        margin-bottom: 20px;
+      }
+      .about h3{
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+      .about p{
+        font-size: 25px;
+        letter-spacing: 1px;
+        text-align: justify;
+        margin-bottom: 20px;
+      }
+      .about button{
+        background-color: maroon;
+        color: white;
+        padding: 9px 14px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 30px;
+      }
+      .about button:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: 0.4s;
+      }
+      .box{
+        height: 20px;
+        width: 20px;
+        background-color: white;
+        position: absolute;
+        animation: anime 8s ease-in-out 0s infinite;
+      }
+      @keyframes anime{
+        0%{
+            top:12%;
+            left: 12%;
+        }
+        25%{
+            top: 92%;
+            left: 12%;
+        }
+        50%{
+            top: 92%;
+            left: 85%;
+        }
+        75%{
+            top: 12%;
+            left: 85%;
+        }
+        100%{
+            top: 12%;
+            left: 12%;
+        }
+      }
+      .btn1{
+        background-color: maroon;
+        color: white;
+        padding: 9px 14px;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: 16px;
+        margin-top: 30px;
+        margin-left: 20px;
+      }
+      .btn1 a{
+        color: white;
+        text-decoration: none;
+      }
+      .btn1:hover{
+        cursor: pointer;
+        transform: scale(1.2);
+        transition: 0.4s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="logo.png" alt="" />
+      <div class="about">
+        <h1>About Me!!</h1>
+        <h3>I am a Web Developer</h3>
+        <p>
+          I am a Front End developer. I am working as developer from 5 years. I can make beautiful website with nice responsiveness. I create website more attractive by using interative web animations. I also provide a clean code for the Website.Feel free to contact me for a query. 
+        </p>
+        <button class="btn">Contact Me</button>
+        <button class="btn1"><a href="index.html">GO BACK!!</a></button>
+      </div>
+    </div>
+    <div class="box">
+      </div>
+  </body>
+</html>

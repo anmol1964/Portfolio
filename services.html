@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: rgb(23, 21, 31);       
+            font-family: "Libre Baskerville", serif;
+            color: white;
+        }
+        .heading{
+            display: block;
+            width: 100vh;
+            margin: 5px auto;
+            padding: 2px 10px;
+            margin-left: 25%;
+            font-size: 50px;
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+        .box{
+            height: 370px;
+            width: 20%;
+            background-color: grey;
+            margin: 10px;
+            border: 2px solid white;
+            border-radius: 15px;
+        }
+        .content{
+            text-align: center;
+        }
+        .box i img{
+            width: 20%;
+            margin-top: 5px;
+        }
+        .box h4{
+            font-size: 35px;
+            margin: 5px;
+            padding: 2px;
+        }
+        .para{
+            width: 90%;
+            text-align: center;
+            margin-left: 13px;
+            font-size: 17px;
+        }
+        .btn{
+            margin-top: 1px;
+            background-color: maroon;
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 20px;
+        }
+        .btn:hover{
+            cursor: pointer;
+            transform: scale(1.2);
+            transition: 0.4s;
+            background-color: black;
+        }
+        #btn{
+            margin-top: 40px;
+            font-size: 20px;
+        }
+        .btn a{
+            color: white;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+    <div class="heading">
+        <h1>Our Services</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+            <i class="logo"><img src="logo1.png" alt=""></i>
+            <h4>Making Website</h4>
+            <p class="para">
+                Here we can design a beautiful website for You.Website will be according to your customization. We will also provide a clean code for your website. Website will be designed very attractive bt using interactive animations.
+            </p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="box">
+            <i class="logo"><img src="book.png" alt=""></i>
+            <h4>Web Dev.</h4>
+            <p class="para">
+                Here we can teach you Web development. We can train you to be Front End developer in just 4 months at minimal fees. We have more then 10 teachers on our platform who can teach you and clear all your queries. Class mode will be online.
+            </p>
+            <button class="btn">Read More</button>
+        </div>
+        <div class="box">
+            <i class="logo"><img src="teaching.png" alt=""></i>
+            <h4>Hiring</h4>
+            <p class="para">
+                Here you can also get a job. If you are an experienced web Developer, you can apply for this job.You have to make websites and teach the students. You can contact the team for any query.Teaching mode will be online.
+            </p>
+            <button class="btn">Read More</button>
+        </div>
+    </div>
+    <button class="btn" id="btn"><a href="index.html">GO BACK!!</a></button>
+</div>
+</body>
+</html>
